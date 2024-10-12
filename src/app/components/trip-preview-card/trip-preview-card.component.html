@@ -1,0 +1,14 @@
+<div class="w-full h-full flex justify-between items-center gap-4 px-4">
+  <ion-img class="basis-[25%] object-center object-cover w-28"
+    [src]="trip.image"/>
+  <div class="basis-[50%] flex flex-1 items-center">{{ trip.title }}
+    | {{ trip.country }}
+  </div>
+  <button *ngIf="!trip.added"
+    class="z-10 basis-[25%]"
+    (click)="addTrip()">
+    <ion-icon size="large"
+      class="text-white"
+      name="add-circle-outline"></ion-icon>
+  </button>
+</div>

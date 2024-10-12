@@ -1,0 +1,8 @@
+<div class="w-full h-full flex flex-col gap-2">
+  <ng-container *ngFor="let trip of trips">
+    <app-trip-preview-card
+      [trip]="trip"
+    ></app-trip-preview-card>
+    <div class="h-px w-full border border-b border-white/50"></div>
+  </ng-container>
+</div>

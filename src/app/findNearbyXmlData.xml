@@ -1,0 +1,92 @@
+<geonames>
+  <script/>
+  <entry>
+    <lang>en</lang>
+    <title>Oberblegisee</title>
+    <summary>Oberblegisee is a lake in the Canton of Glarus, Switzerland. It is
+      located at an elevation of , above the village of Luchsingen and below the
+      peaks of Glärnisch. Its surface area is . (...)
+    </summary>
+    <feature>waterbody</feature>
+    <countryCode>CH</countryCode>
+    <elevation>1410</elevation>
+    <lat>46.9808</lat>
+    <lng>9.0133</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/Oberblegisee</wikipediaUrl>
+    <thumbnailImg/>
+    <rank>57</rank>
+    <distance>1.0408</distance>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>Rüchigrat</title>
+    <summary>The Rüchigrat (2,657 m) is a mountain of the Schwyzer Alps, located
+      west of Luchsingen in the canton of Glarus. It lies south of the
+      Glärnisch, on the range between the valley of the Klöntalersee and the
+      main Linth valley (...)
+    </summary>
+    <feature>mountain</feature>
+    <countryCode>CH</countryCode>
+    <elevation>2625</elevation>
+    <lat>46.9793</lat>
+    <lng>8.9777</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/R%C3%BCchigrat</wikipediaUrl>
+    <thumbnailImg/>
+    <rank>48</rank>
+    <distance>1.8179</distance>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>Glärnisch</title>
+    <summary>The Glärnisch is a mountain massif of the Schwyz Alps, overlooking
+      the valley of the Linth in the Swiss canton of Glarus. It consists of
+      several summits, of which the highest, Bächistock, is 2,915 metres above
+      sea level (...)
+    </summary>
+    <feature>mountain</feature>
+    <countryCode>CH</countryCode>
+    <elevation>2880</elevation>
+    <lat>46.9987</lat>
+    <lng>8.9985</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/Gl%C3%A4rnisch</wikipediaUrl>
+    <thumbnailImg/>
+    <rank>93</rank>
+    <distance>2.4855</distance>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>Luchsingen</title>
+    <summary>Luchsingen is a village, and former municipality, in the
+      municipality of Glarus Süd and canton of Glarus in Switzerland. (...)
+    </summary>
+    <feature/>
+    <countryCode>CH</countryCode>
+    <elevation>570</elevation>
+    <lat>46.9672</lat>
+    <lng>9.0372</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/Luchsingen</wikipediaUrl>
+    <thumbnailImg/>
+    <rank>96</rank>
+    <distance>2.9152</distance>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>Eggstock (Schwyzer Alps)</title>
+    <summary>The Eggstock (2,455 m) is a mountain massif of the Schwyzer Alps,
+      located on the border between the Swiss canton of Schwyz and canton of
+      Glarus, north of Braunwald. It lies on the range east of the Bös Fulen,
+      between the valley of Bösbächi and the cirque of Braunwald and is composed
+      of three (...)
+    </summary>
+    <feature>mountain</feature>
+    <countryCode/>
+    <elevation>2316</elevation>
+    <lat>46.9605</lat>
+    <lng>8.9668</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/Eggstock_%28Schwyzer_Alps%29
+    </wikipediaUrl>
+    <thumbnailImg/>
+    <rank>24</rank>
+    <distance>3.157</distance>
+  </entry>
+</geonames>

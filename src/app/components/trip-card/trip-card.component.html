@@ -1,0 +1,16 @@
+<div (click)="openModificationModal()" class="cursor-pointer w-full h-full flex justify-between items-center px-4">
+  <ion-img class="basis-[20%] object-center object-cover w-28"
+    [src]="trip.customImage ? 'data:image/jpeg;base64,'+trip.image : trip.image"/>
+  <div class="basis-[20%]">{{ trip.title }} | {{ trip.country }}</div>
+  <ion-icon size="large" class="basis-[5%] text-white"
+    [name]="trip.transportIcon"></ion-icon>
+  <div class="basis-[5%]">{{ trip.price | currency: 'CLP' }}</div>
+  <button class="z-10" (click)="onPhoto()">
+    <ion-icon size="large" class="basis-[5%]"
+      name="camera-outline"></ion-icon>
+  </button>
+  <button class="z-10" (click)="openDeleteModal(trip.id)">
+    <ion-icon size="large" class="basis-[5%]"
+      name="trash-outline"></ion-icon>
+  </button>
+</div>

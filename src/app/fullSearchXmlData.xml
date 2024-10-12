@@ -1,0 +1,133 @@
+<geonames>
+  <script/>
+  <entry>
+    <lang>en</lang>
+    <title>London, Ontario</title>
+    <summary>London is a city in Southwestern Ontario, Canada along the Quebec City–Windsor Corridor. The city has a population of 383,822 according to the 2016 Canadian census. London is at the confluence of the Thames River, approximately from both Toronto, Ontario and Detroit, Michigan; and about from (...)</summary>
+    <feature>city</feature>
+    <countryCode>CA</countryCode>
+    <elevation>262</elevation>
+    <lat>42.9837</lat>
+    <lng>-81.2497</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/London%2C_Ontario</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/58000/thumb-57388-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>London</title>
+    <summary>London is the capital and largest city of both the United Kingdom and England. Standing on the River Thames in southeastern England, upstream from its estuary with the North Sea, London has been a major settlement for two millennia. Londinium was founded by the Romans (...)</summary>
+    <feature>city</feature>
+    <countryCode>GB</countryCode>
+    <elevation>8</elevation>
+    <lat>51.5094</lat>
+    <lng>-0.1183</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/London</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/43000/thumb-42715-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>East London, Eastern Cape</title>
+    <summary>East London is a city on the southeast coast of South Africa in the Buffalo City Metropolitan Municipality of the Eastern Cape province. The city lies on the Indian Ocean coast, largely between the Buffalo River and the Nahoon River, and hosts the country's only river port (...)</summary>
+    <feature/>
+    <countryCode>ZA</countryCode>
+    <elevation>60</elevation>
+    <lat>-33.0146</lat>
+    <lng>27.9036</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/East_London%2C_Eastern_Cape</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/138000/thumb-137098-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>London Eye</title>
+    <summary>The London Eye is a giant Ferris wheel on the South Bank of the River Thames in London. It is Europe's tallest Ferris wheel, is the most popular paid tourist attraction in the United Kingdom with over 3.75 million visitors annually, and has made many appearances in popular culture (...)</summary>
+    <feature>landmark</feature>
+    <countryCode>GB</countryCode>
+    <elevation>3</elevation>
+    <lat>51.5033</lat>
+    <lng>-0.1199</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/London_Eye</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/153000/thumb-152429-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>London Borough of Hammersmith and Fulham</title>
+    <summary>The London Borough of Hammersmith and Fulham (pronunciation) is a London borough partly in West London (Hammersmith, West Kensington) and partly in South West London (Fulham), and forms part of Inner London. Traversed by the east-west main roads of the A4 Great West Road and the A40 Westway, many (...)</summary>
+    <feature>adm1st</feature>
+    <countryCode>DE</countryCode>
+    <elevation>10</elevation>
+    <lat>51.4929</lat>
+    <lng>-0.2258</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/London_Borough_of_Hammersmith_and_Fulham</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/37000/thumb-36664-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>London Borough of Lambeth</title>
+    <summary>Lambeth . Collins Dictionary. is a London borough in south London, England, which forms part of Inner London. Its name was recorded in 1062 as Lambehitha ("landing place for lambs") and in 1255 as Lambeth. The geographical centre of London is at Frazier Street near Lambeth North tube station, though (...)</summary>
+    <feature>adm1st</feature>
+    <countryCode>GB</countryCode>
+    <elevation>7</elevation>
+    <lat>51.4891</lat>
+    <lng>-0.1107</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/London_Borough_of_Lambeth</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/40000/thumb-39043-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>London Bridge</title>
+    <summary>Several bridges named London Bridge have spanned the River Thames between the City of London and Southwark, in central London. The current crossing, which opened to traffic in 1973, is a box girder bridge built from concrete and steel (...)</summary>
+    <feature>landmark</feature>
+    <countryCode>GB</countryCode>
+    <elevation>3</elevation>
+    <lat>51.5081</lat>
+    <lng>-0.0878</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/London_Bridge</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/95000/thumb-94442-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>London Borough of Islington</title>
+    <summary>The London Borough of Islington is a London borough in Inner London, England. The borough includes a significant area to the south which forms part of central London. Islington has an estimated population of 215,667 (...)</summary>
+    <feature>adm1st</feature>
+    <countryCode>GB</countryCode>
+    <elevation>23</elevation>
+    <lat>51.5333</lat>
+    <lng>-0.1333</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/London_Borough_of_Islington</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/119000/thumb-118741-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>Natural History Museum, London</title>
+    <summary>The Natural History Museum in London is a natural history museum that exhibits a vast range of specimens from various segments of natural history. It is one of three major museums on Exhibition Road in South Kensington, the others being the Science Museum and the Victoria and Albert Museum (...)</summary>
+    <feature>landmark</feature>
+    <countryCode>GB</countryCode>
+    <elevation>18</elevation>
+    <lat>51.496</lat>
+    <lng>-0.1764</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/Natural_History_Museum%2C_London</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/51000/thumb-50357-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+  <entry>
+    <lang>en</lang>
+    <title>New London, Connecticut</title>
+    <summary>New London is a seaport city and a port of entry on the northeast coast of the United States, located at the mouth of the Thames River in New London County, Connecticut. It was one of the world's three busiest whaling ports for several decades beginning in the early 19th century, along with (...)</summary>
+    <feature/>
+    <countryCode>US</countryCode>
+    <elevation>27</elevation>
+    <lat>41.3556</lat>
+    <lng>-72.1008</lng>
+    <wikipediaUrl>https://en.wikipedia.org/wiki/New_London%2C_Connecticut</wikipediaUrl>
+    <thumbnailImg>https://www.geonames.org/img/wikipedia/160000/thumb-159123-100.jpg</thumbnailImg>
+    <rank>100</rank>
+  </entry>
+</geonames>
