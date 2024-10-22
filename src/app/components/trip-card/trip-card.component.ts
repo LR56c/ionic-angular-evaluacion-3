@@ -1,10 +1,7 @@
 import { CurrencyPipe } from '@angular/common'
 import {
   Component,
-  EventEmitter,
-  Input,
-  OnInit,
-  Output
+  Input
 } from '@angular/core'
 import {
   Camera,
@@ -29,74 +26,68 @@ import { TripService } from 'src/app/services/trip/trip.service'
   selector   : 'app-trip-card',
   templateUrl: './trip-card.component.html',
   styleUrls  : [ './trip-card.component.scss' ],
-  imports: [
+  imports    : [
     IonicModule,
     CurrencyPipe
   ],
   standalone : true
-})
-export class TripCardComponent  {
+} )
+export class TripCardComponent {
 
-  @Input({ required: true }) trip !: Trip
+  @Input( { required: true } ) trip !: Trip
 
   constructor(
     private modalController: ModalController,
-    private tripService : TripService) {
+    private tripService: TripService )
+  {
     addIcons( {
       cameraOutline,
       airplaneOutline,
       trashOutline
-    })
+    } )
   }
 
-  async openDeleteModal(id : string) {
-    const modal = await this.modalController.create({
-      component: TripDeleteModalComponent,
-      componentProps: {
+  async openDeleteModal( id: string ) {
+    const modal = await this.modalController.create( {
+      component      : TripDeleteModalComponent,
+      id             : 'trip-delete-modal',
+      componentProps : {
         id: id
       },
-      backdropDismiss: false,
-    });
-    await modal.present();
-
-    const { data, role } = await modal.onWillDismiss();
-
-    if (role === 'confirm') {
-      console.log('delete confirm')
-    }
+      backdropDismiss: false
+    } )
+    await modal.present()
+    await modal.onWillDismiss()
   }
-
 
   async onPhoto(): Promise<void> {
-    const image = await Camera.getPhoto({
-      quality: 90,
+    const image = await Camera.getPhoto( {
+      quality     : 90,
       allowEditing: false,
-      resultType: CameraResultType.Base64
-    })
+      resultType  : CameraResultType.Base64
+    } )
 
     const imagenBase64 = image.base64String
-    if(!imagenBase64) return
-    this.tripService.updateTrip({
+    if ( !imagenBase64 ) {
+      return
+    }
+    await this.tripService.updateTrip( {
       ...this.trip,
-      image: imagenBase64,
+      image      : imagenBase64,
       customImage: true
-    })
+    } )
   }
 
-   async openModificationModal(): Promise<void> {
-     const modal = await this.modalController.create({
-       component: TripModificationModalComponent,
-       componentProps: {
-          trip: { ...this.trip }
-       },
-       backdropDismiss: false,
-     });
-     await modal.present();
-
-     const { data, role } = await modal.onWillDismiss();
-
-     if (role === 'confirm') {
-       console.log('modification confirm')
-     }
+  async openModificationModal(): Promise<void> {
+    const modal = await this.modalController.create( {
+      id             : 'trip-modification-modal',
+      component      : TripModificationModalComponent,
+      componentProps : {
+        trip: { ...this.trip }
+      },
+      backdropDismiss: false
+    } )
+    await modal.present()
+    await modal.onWillDismiss()
   }
 }

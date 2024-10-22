@@ -5,12 +5,15 @@
   <ion-icon size="large" class="basis-[5%] text-white"
     [name]="trip.transportIcon"></ion-icon>
   <div class="basis-[5%]">{{ trip.price | currency: 'CLP' }}</div>
-  <button class="z-10" (click)="onPhoto()">
+  <button class="z-10" (click)="onPhoto(); $event.stopPropagation()">
     <ion-icon size="large" class="basis-[5%]"
       name="camera-outline"></ion-icon>
   </button>
-  <button class="z-10" (click)="openDeleteModal(trip.id)">
+  <button class="z-10" (click)="openDeleteModal(trip.id); $event.stopPropagation()">
     <ion-icon size="large" class="basis-[5%]"
       name="trash-outline"></ion-icon>
   </button>
 </div>
+
+
+

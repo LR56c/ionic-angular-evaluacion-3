@@ -9,7 +9,7 @@
 <ion-content [fullscreen]="true">
   <div class="w-full h-full flex flex-col">
     <ion-searchbar [debounce]="200"
-      (ionInput)="handelInput($event)"></ion-searchbar>
+      (ionInput)="handleInput($event)"></ion-searchbar>
     <div class="flex items-center justify-center">
       <ion-spinner *ngIf="loadingTrips"></ion-spinner>
     </div>
@@ -19,3 +19,5 @@
     <app-trip-list></app-trip-list>
   </div>
 </ion-content>
+
+

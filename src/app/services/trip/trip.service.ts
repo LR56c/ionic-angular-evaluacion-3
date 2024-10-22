@@ -9,11 +9,11 @@ import { TripRepository } from 'src/app/services/trip/trip-repository'
 } )
 export class TripService {
 
-  repository: TripRepository = new TripInMemoryData()
 
   private tripsSubject: BehaviorSubject<Trip[]> = new BehaviorSubject( [] as Trip[] )
-
   trips$ = this.tripsSubject.asObservable()
+
+  repository: TripRepository = new TripInMemoryData()
 
   async init(): Promise<void> {
     await this.getTrips()

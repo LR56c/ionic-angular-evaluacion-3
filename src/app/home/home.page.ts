@@ -49,7 +49,7 @@ export class HomePage implements OnInit {
   tripsSearchResults: TripPreview[] = []
   originalTrips                     = new Map<string, Trip>()
 
-  async handelInput( $event: any ): Promise<void> {
+  async handleInput( $event: any ): Promise<void> {
     this.loadingTrips = true
     const value       = ( $event.detail.value ?? '' ).trim()
     if ( value.length > 0 ) {
